@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Whiteboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="whiteboard-container">
+        <canvas id="whiteboard"></canvas>
+        <div class="controls">
+          <label for="colorPicker">Choose Marker Color:</label>
+          <input type="color" id="colorPicker" value="#000000">
+          <button id="clearButton">Clear Board</button>
+          <button id="increaseSize"> ++ Marker Size</button>
+          <button id="decreaseSize"> -- Marker Size</button>
+          <button id="eraserToggle">Eraser</button>
+        </div>
+      </div>
+      
+  <!-- Include Firebase -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"></script>
+  
+  <!-- Include Whiteboard Script -->
+  <script type="module" src="whiteboard.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
