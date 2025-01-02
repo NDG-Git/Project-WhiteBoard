@@ -4,7 +4,7 @@ import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/fi
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBFG7zikKRASr9VUbd_hZhjFt1S7Ew3oSE",
+  apiKey: " ",
   authDomain: "project-whiteboard-4e298.firebaseapp.com",
   databaseURL: "https://project-whiteboard-4e298-default-rtdb.firebaseio.com",
   projectId: "project-whiteboard-4e298",
